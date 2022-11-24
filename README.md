@@ -10,5 +10,10 @@ Unity로 게임 개발을 할 때 공통적으로 필요한 기능들을 모아�
 
 ## 설치
 
+1. Scripts 폴더를 다운받는다.   
+https://downgit.github.io/#/home?url=https://github.com/Eucha09/Unity-Framework/tree/main/Scripts
+1. 프로젝트 내 Assets 폴더에 다운받은 Scripts 폴더를 통채로 복사해 넣는다.
+
 ## 가이드
 
+https://leaf-nylon-1da.notion.site/Unity-Framework-0135706f01a54eee9e1e9c7b368dd9c7
