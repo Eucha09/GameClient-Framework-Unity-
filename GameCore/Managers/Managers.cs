@@ -8,9 +8,9 @@ public class Managers : MonoBehaviour
     static Managers Instance { get { Init(); return s_instance; } } // 유일한 매니저를 갖고온다
 
 	#region Contents
-	GameManagerEx _game = new GameManagerEx();
+	//GameManagerEx _game = new GameManagerEx();
 
-    public static GameManagerEx Game {  get { return Instance._game; } }
+    //public static GameManagerEx Game {  get { return Instance._game; } }
 	#endregion
 
 	#region Core
