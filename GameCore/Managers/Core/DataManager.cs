@@ -10,11 +10,14 @@ public interface ILoader<Key, Value>
 
 public class DataManager
 {
-    //public Dictionary<int, Data.Stat> StatDict { get; private set; } = new Dictionary<int, Data.Stat>();
+	// 데이터들을 가지고 있을 Dictionary 선언
+    // ex) public Dictionary<int, Data.Stat> StatDict { get; private set; } = new Dictionary<int, Data.Stat>();
 
     public void Init()
     {
-        //StatDict = LoadJson<Data.StatData, int, Data.Stat>("StatData").MakeDict();
+		// json 형식의 데이터 파일을 읽어들여 Dictionary 형태로 저장
+        // ex) StatDict = LoadJson<Data.StatData, int, Data.Stat>("StatData").MakeDict();
+		
     }
 
     Loader LoadJson<Loader, Key, Value>(string path) where Loader : ILoader<Key, Value>
