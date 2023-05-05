@@ -1,4 +1,4 @@
-# Unity Scripts
+# Unity-Framework
 
 Unity로 게임 개발을 할 때 공통적으로 필요한 기능들을 모아놓은 프레임워크   
 대부분의 기능들은 Managers를 통해 사용할 수 있으며 별다른 객체 생성 없이 바로 사용할 수 있다.
@@ -10,13 +10,13 @@ Unity로 게임 개발을 할 때 공통적으로 필요한 기능들을 모아�
 
 ### 제공되는 Manager 기능들
 
-- Input Manager : 키보드, 마우스 등 각종 입력에 대한 처리를 도와준다.
-- Resource Manager : 게임 오브젝트 관리 및 생성, 삭제를 도와준다.
-- UI Manager : 팝업 관리 및 UI를 띄우고 닫는 작업을 도와준다.
-- Scene Manager : 씬 관리 및 씬 이동을 도와준다.
-- Sound Manager : 사운드 관리 및 재생을 도와준다.
-- Pool Manager : 오브젝트 풀링 기능을 제공해준다.
-- Data Manager : 외부에서 데이터 파일을 읽어오는 것을 도와준다.
+- **Input Manager** : 키보드, 마우스 등 각종 입력에 대한 처리를 도와준다.
+- **Resource Manager** : 게임 오브젝트 관리 및 생성, 삭제를 도와준다.
+- **UI Manager** : 팝업 관리 및 UI를 띄우고 닫는 작업을 도와준다.
+- **Scene Manager** : 씬 관리 및 씬 이동을 도와준다.
+- **Sound Manager** : 사운드 관리 및 재생을 도와준다.
+- **Pool Manager** : 오브젝트 풀링 기능을 제공해준다.
+- **Data Manager** : 외부에서 데이터 파일을 읽어오는 것을 도와준다.
 
 ## 설치
 
